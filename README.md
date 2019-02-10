@@ -1,120 +1,32 @@
-l# Project 1 - **MovieKat**
+# Flix
 
-**MovieKat** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: 7 hours spent in total
+📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
 
-## User Stories
+---
 
-The following **required** user stories are complete:
+## Flix Part 1
 
-- [ x] User sees app icon in home screen and styled launch screen (+1pt)
-- [x ] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
-- [x ] User can "Pull to refresh" the movie list (+2pt)
-- [ x] User sees a loading state while waiting for the movies to load (+2pt)
+### User Stories
+`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after after checking off completed user stories)
 
-The following **stretch** user stories are implemented:
+#### REQUIRED (10pts)
+- [ X] (2pts) User sees an app icon on the home screen and a styled launch screen.
+- [ X] (5pts) User can view and scroll through a list of movies now playing in theaters.
+- [X ] (3pts) User can view the movie poster image for each movie.
 
-- [ ] User sees an alert when there's a networking error (+1pt)
-- [ ] User can search for a movie (+3pt)
-- [ ] While poster is being fetched, user see's a placeholder image (+1pt)
-- [ ] User sees image transition for images coming from network, not when it is loaded from cache (+1pt)
-- [ ] Customize the selection effect of the cell (+1pt)
-- [ ] For the large poster, load the low resolution image first and then switch to the high resolution image when complete (+2pt)
+#### BONUS
+- [ ] (2pt) User can view the app on various device sizes and orientations.
+- [X ] (1pt) Run your app on a real device.
 
-The following **additional** user stories are implemented:
+### App Walkthough GIF
+`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
+<img src="YOUR_GIF_URL_HERE" width=250><br>
 
-Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
+### Notes
+Describe any challenges encountered while building the app.
+Trying to get autolayout working is confusing and I have been unable to do so thus far.
 
-1. Remembering concepts from this project
-2. Debugging errors (took me so long)
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-## Notes
-
-Everything, just everything. So many countless errors, random XCode problems, struggles in debugging. Hope I get better soon.
-
-## License
-
-    Copyright 2018 Debarshi Kundu
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-    
-    
-    # Project 2 - MovieKat 2
-    
-    **Name of your app** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
-    
-    Time spent: **X** hours spent in total
-    
-    ## User Stories
-    
-    The following **required** functionality is completed:
-    
-    - [ ] User can tap a cell to see a detail view (+5pts)
-    - [ ] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView (+5pts)
-    
-    The following **stretch** features are implemented:
-    
-    - [ ] User can tap a poster in the collection view to see a detail screen of that movie (+3pts)
-    - [ ] In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer (+3pts)
-    - [ ] Customize the navigation bar (+1pt)
-    - [ ] List in any optionals you didn't finish from last week (+1-3pts)
-    - ...
-    - ...
-    
-    The following **additional** features are implemented:
-    
-    - [ ] List anything else that you can get done to improve the app functionality!
-    
-    Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
-    
-    1.
-    2.
-    
-    ## Video Walkthrough
-    
-    Here's a walkthrough of implemented user stories:
-    
-    <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-    
-    GIF created with [LiceCap](http://www.cockos.com/licecap/).
-    
-    ## Notes
-    
-    Describe any challenges encountered while building the app.
-    
-    ## License
-    
-    Copyright [yyyy] [name of copyright owner]
-    
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-    
-    http://www.apache.org/licenses/LICENSE-2.0
-    
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+The scroll view exists for the list, but not inside each movie's page
